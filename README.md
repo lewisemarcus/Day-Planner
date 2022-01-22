@@ -34,4 +34,4 @@ The following photo shows the application:
 - - -
 [Marcus Lewis](https://github.com/lewisemarcus)
 
-[Jason "Jay" Yoo](https://github.com/jasonjayoo) - assistance with recursion of save feature.
+[Jason "Jay" Yoo](https://github.com/jasonjayoo) - assistance with save feature.
