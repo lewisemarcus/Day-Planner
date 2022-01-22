@@ -1,10 +1,9 @@
-var timeEl = document.getElementById('currentDay');
-
+//let timeEl = $('#currentDay');
 //replace timeEl child with today's date.
-timeEl.replaceWith(moment().format('dddd, MMMM Do YYYY'));
+document.getElementById('currentDay').replaceWith(moment().format('dddd, MMMM Do YYYY'));
 
-var timeSlots = document.getElementsByTagName('LABEL');
-var inputSlots = document.getElementsByTagName('INPUT');
+let timeSlots = document.getElementsByTagName('LABEL');
+let inputSlots = document.getElementsByTagName('INPUT');
 
 //Checktime function to check for each hour on the calender
 //and change background according to time of day.
@@ -39,7 +38,7 @@ for (let k = 0; k < inputSlots.length; k++) {
 //The function iterates through the length of inputSlots,
 //AND searches for the specific element class that is clicked.
 //The function sets a localStorage item for repeated use.
-//The function sets a sessionStorage variable to true to later check
+//The function sets a sessionStorage letiable to true to later check
 //if each and/or any button has been clicked.
 document.addEventListener("click", function(event) {
     for(let x = 0; x < inputSlots.length; x++) {
